@@ -11,5 +11,5 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
 logging:
   level:
-    root: debug
+    root: info
     '[com.ctc]': debug
