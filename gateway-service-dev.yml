@@ -14,5 +14,6 @@ eureka:
     service-url:
       default-zone: http://localhost:8761/eureka/
 gateway:
-  authorization-service: authorization-service
-  todo-service: todo-service
+  to:
+    authorization-service: authorization-service
+    todo-service: todo-service
